@@ -1,46 +1,28 @@
-# FareSplit Pool
+# KainTayo Split
 
-A Stellar-powered ride fare splitting system for jeepney commuters in Makati that eliminates cash disputes by enabling instant USDC settlement via Soroban smart contracts.
-
----
+Instant restaurant bill splitting using Stellar USDC and Soroban smart contracts.
 
 ## Problem
-A jeepney commuter in Makati struggles to fairly split shared ride payments with strangers, often losing money or time due to cash disagreements and lack of trust.
-
----
+A group of students in Quezon City struggles to settle shared restaurant bills due to mixed payment methods and lack of change.
 
 ## Solution
-Users join a ride pool, pay once in USDC, and a Soroban smart contract instantly splits and settles payments transparently on Stellar.
-
----
+A mobile app that escrows each participant’s share on Stellar and releases funds to the payer once fully settled.
 
 ## Timeline
-- Day 1: Smart contract + pool logic  
-- Day 2: Mobile wallet integration  
-- Day 3: QR onboarding + testing  
-- Day 4: Demo + polish  
-
----
+- Day 1–2: Contract + testing
+- Day 3–4: Simple frontend (bill creation + QR)
+- Day 5: Wallet integration + demo
 
 ## Stellar Features Used
-- USDC transfers  
-- Soroban smart contracts  
-- Trustlines  
-- Built-in DEX (optional FX conversion)  
+- USDC transfers
+- Soroban smart contracts
+- Trustlines
 
----
-
-## Vision
-Replace fragmented cash-based commuting payments in SEA with instant, trustless, programmable settlement rails.
-
----
+## Vision and Purpose
+Make group payments frictionless in everyday social settings across Southeast Asia.
 
 ## Prerequisites
-- Rust (latest stable)  
-- Soroban CLI v20+  
-
----
+- Rust
+- Soroban CLI
 
 ## Build
-```bash
-soroban contract build
