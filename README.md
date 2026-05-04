@@ -26,3 +26,8 @@ Make group payments frictionless in everyday social settings across Southeast As
 - Soroban CLI
 
 ## Build
+
+
+##Contract
+ https://stellar.expert/explorer/testnet/tx/4e21bf6ff9b7ef73786ca5ebc98a40c996e744a1b637c97c481f95600d40df5f
+ https://lab.stellar.org/r/testnet/contract/CAK3UNDP66SVBVWIWEKIONE7PC4YX4RGBD6RSRUTRYN7IO3ZCETS42FE
